@@ -78,22 +78,8 @@
             >;
         };
 
-        #elif defined(ISO)
-
-
-
-        #elif defined(ALL_1U)
-
-
-
-        #elif defined(HHKB)
-
-
-
         #else
     #error "Layout not defined, please define a layout by uncommenting the appropriate line in bt65_v1.keymap"
-    #
-
-        endif
+    #endif
     };
 };
