@@ -12,6 +12,7 @@
 //#define HHKB
 
 &gresc {
+    bindings = <&kp ESC>, <&kp TILDE>;
 };
 
 / {
